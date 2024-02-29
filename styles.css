@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Estilo del fondo */
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo de la barra de navegación */
+  .navbar {
+    background-color: #000 !important;
+    border-bottom: 1px solid #333 !important;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #aaa !important;
+  }
+  
+  /* Estilo de las secciones */
+  .section {
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .section h2 {
+    color: #00baff;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Estilo de los enlaces */
+  a {
+    color: #00baff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Estilo de los botones */
+  .btn {
+    background-color: #00baff;
+    border-color: #00baff;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #0077cc;
+    border-color: #0077cc;
+  }
+  
+  /* Estilo de las imágenes de habilidades */
+  .img-fluid {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
